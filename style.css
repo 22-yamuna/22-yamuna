@@ -1,0 +1,73 @@
+/* CSS code for the pricing page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .pricing-plans {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .plan {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+  }
+  
+  .plan h2 {
+    margin-top: 0;
+  }
+  
+  .plan p {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .plan ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .plan ul li {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
